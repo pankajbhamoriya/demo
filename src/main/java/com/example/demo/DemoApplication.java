@@ -14,7 +14,7 @@ public class DemoApplication {
 
   @GetMapping("/")
   public String hello() {
-    return "hello world!";
+    return "<html><p>hello world!</p><br><input type=text name='name'><input type=submit></html>";
   }
   
   @RequestMapping(value = "/getEmployees", method = RequestMethod.GET)
