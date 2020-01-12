@@ -22,8 +22,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.oauth.model.Employee;
 
-//@Controller
-@RestController
+@Controller
+//@RestController
 public class EmployeeController {
 
 	@RequestMapping(value = "/getEmployees", method = RequestMethod.GET)
